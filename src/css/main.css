@@ -1,3 +1,50 @@
-title {
-  display: none;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00BFFF;
+}
+
+.anot {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center
+}
+
+.anot-cont {
+  margin-bottom: 50px;
+  padding: 32px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+.anot-cont-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.anot-box {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px rgb(202, 202, 202);
+}
+
+.anot-box p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.anot-box-header h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.textdstq {
+  font-size: 16px;
+  color: rgb(0, 110, 255);
 }
